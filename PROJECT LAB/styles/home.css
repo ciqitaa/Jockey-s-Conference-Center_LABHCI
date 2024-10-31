@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    position: relative;
+    background-color: #BBD4CE;
+    min-height: 2300px;
+}
+
+.navbar-container{
+    display: flex;
+    left: -2px;
+    top: 0px;
+    background: #679186;
+    flex-direction: row;
+    padding-right: 50px;
+    padding-left: 30px;
+    height: 120px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    margin: 0px auto;
+}
+
+.navbar img{
+    width: 17%;
+    height: auto;
+}
+
+.navbar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0px;
+    height: 60px;
+    width: 100%;
+    color: black;
+    margin-left: 20px;
+    margin-right: 500px;
+}
+.navbar a{
+    margin-left: 50px;
+}
+.page-link{
+    position: relative;
+    margin-left: auto;
+    color: black;
+}
+
+.link{
+    transition: 0.3s ease;
+    text-decoration: none;
+    color:black;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.link:hover{
+    border-bottom: 5px solid #325C69;
+}
+
+.origin{
+    transition: 0.3s ease;
+    text-decoration: none;
+    color:black;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content img{
+    width: 100%;
+    height: 50%;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20vw;
+}
+
+.About_JCC {
+    color: #264E70;
+    font-weight:900;
+    align-items: center;
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: auto auto;
+}
+
+.Text1{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+.img1 img{
+
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit:cover ;
+}
+
+.Text1 p{
+    font-size: 20px;
+    width: 80%;
+    text-align: justify;
+}
+
+.upcoming{
+    width: 100%;
+    height: 30vh;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20vw;
+}
+
+.upcoming img{
+    border: 1px solid red;
+    width: 103%;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 99vw;
+    align-items: center;
+    background-color: #66A2B5;
+}
+
+.footer-content{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+footer img{
+    width: 15vw;
+}
+
+.footer-content .vertical-line{
+    border: 1px solid black;
+}
+
+.footer-content h3{
+    cursor: pointer;
+}
+
+.footer-content h3:hover{
+    border-bottom: 1px solid black;
+    transition: 0.3s all ease-out;
+}

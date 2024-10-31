@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    position: relative;
+    background-color: #BBD4CE;
+    min-height: 1100px;
+}
+
+.navbar-container{
+    display: flex;
+    left: -2px;
+    top: 0px;
+    background: #679186;
+    flex-direction: row;
+    padding-right: 50px;
+    padding-left: 30px;
+    height: 120px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    margin: 0px auto;
+}
+
+.navbar img{
+    width: 17%;
+    height: auto;
+}
+
+.navbar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0px;
+    height: 60px;
+    width: 100%;
+    color: black;
+    margin-left: 20px;
+    margin-right: 500px;
+}
+.navbar a{
+    margin-left: 50px;
+}
+.page-link{
+    position: relative;
+    margin-left: auto;
+    color: black;
+}
+
+.link{
+    transition: 0.3s ease;
+    text-decoration: none;
+    color:black;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.link:hover{
+    border-bottom: 5px solid #325C69;
+}
+
+.origin{
+    transition: 0.3s ease;
+    text-decoration: none;
+    color:black;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Inform{
+    margin-top: 220px;
+    font-size: 30px;
+    margin-left: 150px;
+    display: flex;
+    text-align: justify;
+    gap: 40px;
+}
+
+.overview{
+    margin-top: 300px;
+    color: #264E70;
+    font-size: 25px;
+    margin-left: -490px;
+}
+
+.para1{
+    width: 30vw;
+    font-size: 17px;
+    color: black;
+    font-weight: 900;
+}
+
+.para2{
+    width: 30vw;
+    margin-top: 20px;
+    font-size: 17px;
+    color: black;
+}
+
+.certification{
+    margin-top: 150px;
+    color: #264E70;
+    font-size: 25px;
+    margin-left: 200px;
+}
+
+.para3{
+    width: 30vw;
+    margin-top: 20px;
+    font-size: 17px;
+    color: black;
+    font-weight: 900;
+}
+
+.certification img{
+    margin-left: 5vw;
+    margin-top: 50px;
+    filter: brightness(0);
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 99vw;
+    align-items: center;
+    background-color: #66A2B5;
+}
+
+.footer-content{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+footer img{
+    width: 15vw;
+}
+
+.footer-content .vertical-line{
+    border: 1px solid black;
+}
+
+.footer-content h3{
+    cursor: pointer;
+}
+
+.footer-content h3:hover{
+    border-bottom: 1px solid black;
+    transition: 0.3s all ease-out;
+}
